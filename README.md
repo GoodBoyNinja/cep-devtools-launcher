@@ -2,7 +2,7 @@
 For adobe CEP extensions: Quickly open the dev-tools debugger with the correct port using a keyboard shortcut
 
 ## Usage
-After requiring this module, hitting ``Ctrl + Shift + Alt + D`` (D for debugging) on your keyboard will automatically open ``localhost:xxxx`` in the browser, with the correct port number attatched.
+After requiring this module, hitting ``Ctrl + Shift + Alt + D`` (D for debugging) on your keyboard will automatically open ``localhost:xxxx`` in the browser, with the correct port number attached.
 
 
 ## usage
