@@ -10,7 +10,7 @@ Place **devToolsLauncher.js** somewhere in your project, then require it like so
 
 ```js
 const path = require('path');
-const DevToolsOpener = require(path.join("devToolsOpener.js")); // Make sure path is correct ofc
+const DevToolsOpener = require(path.join("devToolsLauncher.js")); // Make sure path is correct ofc
 ```
 
 Then open your extension and hit ``Ctrl + Shift + Alt + D``. Your browser window should pop up.
