@@ -49,8 +49,7 @@ const DevToolsLauncher = class {
             const debugFileXMLRoot = debugFileXML.documentElement;
 
             // now that we have a document, let's get the extension tag based on the extension id (the attribute of the tag is "Id")
-            const extensionTag = debugFileXMLRoot.querySelector("[Id='" + thisExtensionID + "']");
-
+            const extensionTag = debugFileXMLRoot.querySelector(`[Id="${thisExtensionID}"]`);
             if (extensionTag === null) {
                 console.error(`Cannot open DevTools: extension tag matching the id: "${thisExtensionID}" was not found`);
                 return;
